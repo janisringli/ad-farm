@@ -209,3 +209,111 @@ footer {
         padding: 0 20px;
     }
 }
+
+
+/* Terms Section */
+.terms-section {
+    padding: 50px 20px;
+    text-align: left;
+    background-color: #f4f4f4;
+}
+
+.terms-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.terms-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.terms-section h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.terms-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.services-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.services-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.service {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.service h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-container {
+        padding: 0 20px;
+    }
+}
