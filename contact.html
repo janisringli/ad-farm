@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header (same as the homepage) -->
+    <header>
+        <div class="logo">TheAdCompany</div>
+        <nav>
+            <ul>
+                <li><a href="/">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or inquiries, feel free to reach out to us using the form below, or through our contact information.</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> info@theadcompany.ch</p>
+                <p><strong>Phone:</strong> +41 389 52 32</p>
+                <p><strong>Address:</strong> Gemeindestrasse 32, 8032 Zürich</p>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form" action="submit-form.php" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 theadcompany.ch. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
