@@ -317,3 +317,42 @@ footer a:hover {
         padding: 0 20px;
     }
 }
+
+/* Styling for testimonials section */
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial-item img.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    /* image fill container */
+    object-fit: cover;
+}
+
+.testimonial-item p {
+    margin-bottom: 10px;
+}
+
+.testimonial-item h4 {
+    font-weight: bold;
+    color: #333;
+}
